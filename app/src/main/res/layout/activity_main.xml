@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#c0c0c0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="#F06292"
+        android:padding="10dip"
+        android:text="Show Alert"
+        android:textColor="#fff"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnAlertWithTwoBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert With Two Buttons"
+        android:padding="10dip"
+        android:layout_marginTop="10dp"
+        android:background="#F06292"
+        android:textColor="#fff"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAlertWithThreeBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert with Three Buttons"
+        android:padding="10dip"
+        android:layout_marginTop="10dp"
+        android:background="#F06292"
+        android:textColor="#fff"
+        android:textStyle="bold">
+    </Button>
+</LinearLayout>
